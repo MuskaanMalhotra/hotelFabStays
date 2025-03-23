@@ -4,7 +4,7 @@ import React from 'react'
 
 const Rooms = () => {
   return (
-    <div className='grid sm:grid-cols-2 sm:w-2/3 gap-10 pt-0 p-5'>
+    <div className='grid lg:grid-cols-2 lg:w-2/3 gap-10 pt-0 p-5'>
         <div className='h-fit border-gray-200 shadow-lg border'>
             <Image className='h-[30vh] w-full' src={"/img.JPG"} alt='room' height={1000} width={1000}/>
             <div className='p-4'>

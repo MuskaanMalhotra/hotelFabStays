@@ -116,21 +116,21 @@ const Hero = () => {
           />
 
           {/* Text overlay */}
-          <div className="absolute p-5 flex sm:gap-10 flex-col h-full items-start sm:w-2/3 justify-start ">
+          <div className="absolute p-5 flex lg:gap-10 flex-col h-full items-start lg:w-2/3 justify-start ">
             <div className="">
-              <h1 className="sm:text-9xl text-4xl whitespace-nowrap font-light  text-white">
+              <h1 className="lg:text-9xl text-4xl whitespace-nowrap font-light  text-white">
                 {slide.text}
               </h1>
-              <div className="flex items-center justify-start gap-5 sm:gap-16">
-                <h1 className="sm:text-9xl text-4xl  font-extralight  text-white">
+              <div className="flex items-center justify-start gap-5 lg:gap-16">
+                <h1 className="lg:text-9xl text-4xl  font-extralight  text-white">
                   {slide.text3}
                 </h1>
-                <h1 className="sm:text-9xl text-5xl font-indie-flower relative font-extrabold text-[#cdb15c] pt-2 sm:pt-5">
+                <h1 className="lg:text-9xl text-5xl font-indie-flower relative font-extrabold text-[#cdb15c] pt-2 lg:pt-5">
                   {slide.text1}
                 </h1>
               </div>
             </div>
-            <h1 className="sm:text-4xl text-lg font-extralight text-white">
+            <h1 className="lg:text-4xl text-lg font-extralight text-white">
               {slide.text2}
             </h1>
           </div>
