@@ -31,7 +31,7 @@ const Footer = () => {
         )}
       </div>
       {/* contact us */}
-      <div className=" flex flex-col items-center justify-center lg:w-1/4 bg-[#cdb97c] p-5">
+      <div className=" flex flex-col lg:items-center items-start justify-center lg:w-1/4 bg-[#cdb97c] p-5">
         <div className="flex flex-col lg:gap-5 gap-2 items-start justify-center">
           <div className="flex gap-5 items-end">
             <PhoneOutgoing strokeWidth={1.5} className="lg:h-14 h-10 w-10 lg:w-14" />
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
       {/* mail us */}
-      <div className=" flex flex-col items-center justify-center lg:w-1/4 p-5 bg-[#cdb15c]">
+      <div className=" flex flex-col lg:items-center items-start justify-center lg:w-1/4 p-5 bg-[#cdb15c]">
         <div className="flex flex-col lg:gap-5 gap-2 items-start justify-center">
           <div className="flex gap-5 items-end">
             <MailOpen strokeWidth={1.5} className="lg:h-14 h-10 w-10 lg:w-14" />
