@@ -11,9 +11,9 @@ const Footer = () => {
   }, []);
   return (
     <div className="mt-20"> 
-    <div className="flex">
+    <div className="flex flex-col sm:flex-row">
         {/* map */}
-      <div className="relative w-2/4 h-[40vh] overflow-hidden">
+      <div className="relative sm:w-2/4 h-[40vh] overflow-hidden">
         {isClient && (
           <iframe
             width="100%"
@@ -31,11 +31,11 @@ const Footer = () => {
         )}
       </div>
       {/* contact us */}
-      <div className=" flex flex-col items-center justify-center w-1/4 bg-[#cdb97c]">
-        <div className="flex flex-col gap-5 items-start justify-center">
+      <div className=" flex flex-col items-center justify-center sm:w-1/4 bg-[#cdb97c] p-5">
+        <div className="flex flex-col sm:gap-5 gap-2 items-start justify-center">
           <div className="flex gap-5 items-end">
-            <PhoneOutgoing strokeWidth={1.5} size={60} />
-            <p className="text-4xl font-medium">Contact Us</p>
+            <PhoneOutgoing strokeWidth={1.5} className="sm:h-14 h-10 w-10 sm:w-14" />
+            <p className="sm:text-4xl text-2xl font-medium">Contact Us</p>
           </div>
           <div className=" flex flex-col">
             <label className="text-lg font-medium">Reservation:</label>
@@ -52,11 +52,11 @@ const Footer = () => {
         </div>
       </div>
       {/* mail us */}
-      <div className=" flex flex-col items-center justify-center w-1/4 bg-[#cdb15c]">
-        <div className="flex flex-col gap-5 items-start justify-center">
+      <div className=" flex flex-col items-center justify-center sm:w-1/4 p-5 bg-[#cdb15c]">
+        <div className="flex flex-col sm:gap-5 gap-2 items-start justify-center">
           <div className="flex gap-5 items-end">
-            <MailOpen strokeWidth={1.5} size={60} />
-            <p className="text-4xl font-medium">Mail Us</p>
+            <MailOpen strokeWidth={1.5} className="sm:h-14 h-10 w-10 sm:w-14" />
+            <p className="sm:text-4xl text-2xl font-medium">Mail Us</p>
           </div>
           <div className=" flex flex-col">
             <label className="text-lg font-medium">Information:</label>
@@ -69,8 +69,8 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    <div className="p-10 flex justify-between items-start bg-[#cdb97c]">
-        <div className="w-1/3">
+    <div className="sm:p-10 p-5 flex flex-col sm:flex-row justify-between items-start gap-10 sm:gap-0 bg-[#cdb97c]">
+        <div className="sm:w-1/3">
             <h1 className="text-xl font-bold">Hotel Fab Stays</h1>
             <p className="text-lg">Hotel Fab Stays offers great comfort and exceptional services at your price in Delhi, ensuring a luxurious and memorable stay for all our guests.</p>
         </div>

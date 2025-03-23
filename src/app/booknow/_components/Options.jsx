@@ -22,9 +22,9 @@ const Options = () => {
   };
 
   return (
-    <div className="w-1/3 ">
-      <div className=" grid grid-cols-2 gap-10 p-10 bg-[#cdb97c] opacity-80">
-        <div className="flex flex-col text-xl font-medium w-fit">
+    <div className="sm:w-1/3 ">
+      <div className=" grid grid-cols-2 sm:gap-10 gap-5 sm:p-7 p-5  bg-[#cdb97c] opacity-80">
+        <div className="flex flex-col sm:text-xl text-lg font-medium w-fit">
           <label htmlFor="checkin">Check In</label>
           <input
             type="date"
@@ -32,10 +32,10 @@ const Options = () => {
             value={checkin}
             onChange={(e) => setCheckin(e.target.value)}
             name="checkin"
-            className="w-40"
+            className="sm:w-40 w-32"
           />
         </div>
-        <div className="flex flex-col text-xl font-medium  w-fit">
+        <div className="flex flex-col sm:text-xl text-lg font-medium  w-fit">
           <label htmlFor="checkout">Check Out</label>
           <input
             type="date"
@@ -43,10 +43,10 @@ const Options = () => {
             value={checkout}
             onChange={(e) => setCheckout(e.target.value)}
             name="checkout"
-            className="w-40"
+            className="sm:w-40 w-32"
           />
         </div>
-        <div className="flex flex-col text-xl font-medium  w-fi">
+        <div className="flex flex-col sm:text-xl text-lg font-medium  w-fi">
           <label htmlFor="guests">Guests</label>
           <input
             type="number"
@@ -56,14 +56,14 @@ const Options = () => {
             className=" w-30"
           />
         </div>
-        <div className="text-xl font-medium  w-fit ">
+        <div className="sm:text-xl text-lg font-medium  w-fit ">
           <p>Nights</p>
           {calculateNights()}
         </div>
       </div>
-      <div className="py-5 px-10">
+      <div className="py-5 sm:px-10 px-5">
         <h1 className="text-xl font-medium">Services :</h1>
-        <div className="grid grid-cols-2 gap-2 mt-2 text-lg font-light">
+        <div className="grid grid-cols-2 gap-2 mt-2 text-lg font-light whitespace-nowrap">
           <div>
             <input type="checkbox" name="service1" /> <label>Television</label>
           </div>
@@ -83,9 +83,9 @@ const Options = () => {
           </div>
         </div>
       </div>
-      <div className="py-5 px-10">
+      <div className="py-5 sm:px-10 px-5">
         <h1 className="text-xl font-medium">Extra Services :</h1>
-        <div className="grid grid-cols-2 gap-2 mt-2 text-lg font-light">
+        <div className="grid grid-cols-2 gap-2 mt-2 text-lg font-light whitespace-nowrap">
           <div>
             <input type="checkbox" name="service1" /> <label>Cleaning Fee</label>
           </div>

@@ -7,7 +7,7 @@ const page = () => {
     <div>
       <h1 className="text-4xl text-center mt-10 font-light">Book Now</h1>
       <hr className="w-1/4 mx-auto my-5" />
-      <div className='flex'>
+      <div className='flex flex-col sm:flex-row'>
         <Options/>
         <Rooms/>
       </div>

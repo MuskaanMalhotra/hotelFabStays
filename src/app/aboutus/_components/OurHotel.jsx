@@ -4,11 +4,13 @@ import React from "react";
 const OurHotel = () => {
   return (
     <div>
-      <h1 className="text-4xl text-center mt-10 font-light">Our Hotel</h1>
-      <hr className="w-1/4 mx-auto my-5" />
-      <div className="flex gap-10 mx-20 my-10">
-        <div className="w-1/2">
-          <p className="text-lg text-gray-600">
+      <h1 className="sm:text-5xl text-3xl text-center mt-7 sm:mt-10 font-light">
+        Our Hotel
+      </h1>
+      <hr className="w-2/4 mx-auto sm:my-10 my-3" />
+      <div className="flex sm:flex-row flex-col-reverse sm:gap-10 gap-5  sm:mx-20 mx-5 sm:my-10 my-5">
+        <div className="sm:w-1/2">
+          <p className="sm:text-lg text-center sm:text-left text-gray-600">
             Hotel Fab Stays is a distinguished premium hotel renowned for its
             exceptional hospitality services in India. Dedicated to delivering
             unparalleled amenities and unforgettable experiences, we ensure a
@@ -27,9 +29,9 @@ const OurHotel = () => {
             memorable stay and aim to exceed their expectations at every turn.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="sm:w-1/2 w-full">
           <Image
-            className="h-[60vh] w-full"
+            className="sm:h-[60vh]"
             alt="hotel img"
             src={"/img.JPG"}
             width={1000}
@@ -38,18 +40,18 @@ const OurHotel = () => {
         </div>
       </div>
       <hr className="w-2/3 mx-auto my-5" />
-      <div className="flex gap-10 mx-20 my-10">
-        <div className="w-1/2">
+      <div className="flex sm:flex-row flex-col sm:gap-10 gap-5  sm:mx-20 mx-5 sm:my-10 my-5">
+        <div className="sm:w-1/2">
           <Image
-            className="h-[60vh] w-full"
+            className="sm:h-[60vh] w-full"
             alt="hotel img"
             src={"/img4.JPG"}
             width={1000}
             height={1000}
           />
         </div>
-        <div className="w-1/2">
-          <p className="text-lg text-gray-600">
+        <div className="sm:w-1/2">
+          <p className="sm:text-lg text-center sm:text-left text-gray-600">
             Hotel Fab Stays boasts excellent meeting spaces and conference halls
             equipped with the latest technology, making them ideal for business
             meetings, conferences, and events. We also provide venues for small

@@ -13,7 +13,7 @@ const Hero = () => {
       text3: "of",
       text1: " FabStays",
       text2:
-        "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
+        "Luxury & Comfort Await Your perfect retreat in the heart of Delhi, where elegance meets exceptional hospitality.",
     },
     {
       src: "/img1.JPG",
@@ -23,7 +23,7 @@ const Hero = () => {
       text1: " FabStays",
 
       text2:
-        "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
+        "Luxury & Comfort Await Your perfect retreat in the heart of Delhi, where elegance meets exceptional hospitality.",
     },
     {
       src: "/img2.JPG",
@@ -33,7 +33,7 @@ const Hero = () => {
       text1: " FabStays",
 
       text2:
-        "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
+        "Luxury & Comfort Await Your perfect retreat in the heart of Delhi, where elegance meets exceptional hospitality.",
     },
     {
       src: "/img3.JPG",
@@ -43,7 +43,7 @@ const Hero = () => {
       text1: " FabStays",
 
       text2:
-        "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
+        "Luxury & Comfort Await Your perfect retreat in the heart of Delhi, where elegance meets exceptional hospitality.",
     },
     {
       src: "/img4.JPG",
@@ -53,7 +53,7 @@ const Hero = () => {
       text1: " FabStays",
 
       text2:
-        "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
+        "Luxury & Comfort Await Your perfect retreat in the heart of Delhi, where elegance meets exceptional hospitality.",
     },
     {
       src: "/img5.JPG",
@@ -63,7 +63,7 @@ const Hero = () => {
       text1: " FabStays",
 
       text2:
-        "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
+        "Luxury & Comfort Await Your perfect retreat in the heart of Delhi, where elegance meets exceptional hospitality.",
     },
     {
       src: "/img6.JPG",
@@ -73,7 +73,7 @@ const Hero = () => {
       text1: " FabStays",
 
       text2:
-        "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
+        "Luxury & Comfort Await Your perfect retreat in the heart of Delhi, where elegance meets exceptional hospitality.",
     },
     {
       src: "/img7.JPG",
@@ -83,7 +83,7 @@ const Hero = () => {
       text1: " FabStays",
 
       text2:
-        "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
+        "Luxury & Comfort Await Your perfect retreat in the heart of Delhi, where elegance meets exceptional hospitality.",
     },
   ];
 
@@ -116,21 +116,21 @@ const Hero = () => {
           />
 
           {/* Text overlay */}
-          <div className="absolute p-5 flex gap-10 flex-col h-full items-start w-2/3 justify-start ">
+          <div className="absolute p-5 flex sm:gap-10 flex-col h-full items-start sm:w-2/3 justify-start ">
             <div className="">
-              <h1 className="text-9xl whitespace-nowrap font-light  text-white">
+              <h1 className="sm:text-9xl text-4xl whitespace-nowrap font-light  text-white">
                 {slide.text}
               </h1>
-              <div className="flex items-center justify-start gap-16">
-                <h1 className="text-9xl font-extralight  text-white">
+              <div className="flex items-center justify-start gap-5 sm:gap-16">
+                <h1 className="sm:text-9xl text-4xl  font-extralight  text-white">
                   {slide.text3}
                 </h1>
-                <h1 className="text-9xl font-indie-flower relative font-extrabold text-[#cdb15c] pt-5">
+                <h1 className="sm:text-9xl text-5xl font-indie-flower relative font-extrabold text-[#cdb15c] pt-2 sm:pt-5">
                   {slide.text1}
                 </h1>
               </div>
             </div>
-            <h1 className="text-4xl font-extralight text-white">
+            <h1 className="sm:text-4xl text-lg font-extralight text-white">
               {slide.text2}
             </h1>
           </div>

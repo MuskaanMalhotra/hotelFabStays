@@ -22,9 +22,9 @@ const TestimonialSlider = () => {
     },
     {
       id: 3,
-      text: "We celebrated our anniversary here and couldn't be happier. The romantic dinner setup on the beach was magical. Staff remembered all our preferences from our previous stay.",
+      text: "We celebrated our anniversary here and couldn't be happier. The romantic dinner setup was magical. Staff remembered all our preferences from our previous stay.",
       author: "Memorable Stay",
-      room: "Ocean View Villa",
+      room: "Balcony room",
       image: "/img.JPG"
     },
     {
@@ -74,12 +74,12 @@ const TestimonialSlider = () => {
 
   return (
     <div className="w-full mx-auto py-5 px-4">
-        <h1 className="text-5xl text-center mt-10 font-light">
+        <h1 className="sm:text-5xl text-2xl text-center mt-7 sm:mt-10 font-light">
         Testimonials
       </h1>
-      <hr className="w-2/4 mx-auto my-10" />
+      <hr className="w-2/4 mx-auto sm:my-10 my-3" />
       <div 
-        className="relative overflow-hidden w-4/5 py-5 mx-auto bg-gray-100"
+        className="relative overflow-hidden sm:w-4/5 py-5 mx-auto bg-gray-100"
         ref={containerRef}
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
@@ -89,11 +89,11 @@ const TestimonialSlider = () => {
           {testimonials.map((testimonial) => (
             <div 
               key={testimonial.id} 
-              className="w-full flex-shrink-0 flex flex-col items-center p-6"
+              className="w-full flex-shrink-0 flex flex-col items-center p-2 sm:p-6"
             >
               <div className="relative mb-8">
                 <span className="text-[#cdb97c] text-8xl font-serif absolute -top-5 -left-0">"</span>
-                <p className="text-center text-gray-700 text-xl max-w-3xl mx-auto relative z-10 px-8">
+                <p className="text-center text-gray-700 text-md sm:text-xl max-w-3xl mx-auto relative z-10 px-8">
                   {testimonial.text}
                 </p>
                 <span className="text-[#cdb97c] text-8xl font-serif absolute -bottom-16 right-0">"</span>
