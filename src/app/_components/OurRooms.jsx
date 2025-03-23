@@ -1,0 +1,123 @@
+import Image from 'next/image'
+import React from 'react'
+
+const OurRooms = () => {
+  return (
+    <div className='mb-20'>
+        <h1 className="text-5xl text-center mt-10 font-light">
+        Gallery
+      </h1>
+      <hr className="w-2/4 mx-auto my-10" />
+      <div>
+              {/*upper loop */}
+      <div className="flex overflow-hidden space-x-16 group mt-5 mx-4">
+        <div className="flex space-x-10 animate-loop-scroll group-hover:[animation-play-state:paused]">
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img1.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img2.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img3.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img4.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img5.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img6.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img7.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img1.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img2.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img3.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img4.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img5.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img6.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img7.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+        </div>
+      </div>
+      {/* lower loop */}
+      <div className="flex overflow-hidden space-x-16 group mt-10 mx-4">
+        <div className="flex space-x-10 animate-loop-scroll2 group-hover:[animation-play-state:paused]">
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img1.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img2.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img3.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img4.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img5.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img6.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img7.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img1.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img2.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img3.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img4.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img5.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img6.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+          <div className="flex items-center flex-shrink-0">
+            <Image src="/img7.JPG" className='h-52 w-80' alt="pic" width={1000} height={1000} />
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  )
+}
+
+export default OurRooms
