@@ -42,8 +42,8 @@ const Welcome = () => {
           <div className="flex items-center justify-between sm:w-3/4 w-full">
             <div className=" flex items-start gap-2 sm:gap-4">
               <Image
-                className="sm:h-14 h-10 w-10 sm:w-14 rounded-full"
-                src={"/img.JPG"}
+                className="sm:h-14 border border-black h-10 w-10 sm:w-14 rounded-full"
+                src={"/user.png"}
                 alt="feature1"
                 width={1000}
                 height={1000}

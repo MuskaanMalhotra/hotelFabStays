@@ -11,28 +11,28 @@ const TestimonialSlider = () => {
       text: "They really provide good room services and good atmosphere to stay I recommend everyone to take visit here for staying when you are in vacations I also liked there hospitality of the food provided and decor of the rooms.",
       author: "Just Awesome Place",
       room: "Standard Room",
-      image: "/img.JPG"
+      image: "/user.png"
     },
     {
       id: 2,
       text: "The resort exceeded my expectations. Beautiful views, attentive staff, and delicious cuisine. The spa treatments were incredibly relaxing. Perfect for a weekend getaway.",
       author: "Amazing Retreat",
       room: "Deluxe Suite",
-      image: "/img.JPG"
+      image: "/user.png"
     },
     {
       id: 3,
       text: "We celebrated our anniversary here and couldn't be happier. The romantic dinner setup was magical. Staff remembered all our preferences from our previous stay.",
       author: "Memorable Stay",
       room: "Balcony room",
-      image: "/img.JPG"
+      image: "/user.png"
     },
     {
       id: 4,
       text: "Traveling with kids can be challenging, but this place made it easy. The kids' club activities kept our children entertained while we enjoyed some quiet time. We'll definitely return.",
       author: "Family Friendly",
       room: "Family Suite",
-      image: "/img.JPG"
+      image: "/user.png"
     }
   ];
 
@@ -103,7 +103,7 @@ const TestimonialSlider = () => {
                 <img 
                   src={testimonial.image} 
                   alt={testimonial.author} 
-                  className="w-20 h-20 rounded-full object-cover mx-auto"
+                  className="w-20 h-20 border rounded-full object-cover mx-auto"
                 />
               </div>
               
