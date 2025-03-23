@@ -9,16 +9,18 @@ const Hero = () => {
     {
       src: "/img.JPG",
       alt: "hero image ",
-      text: "Explore the ",
-      text1: "Magic Of Delhi",
+      text: "Enjoy the comfort",
+      text3: "of",
+      text1: " FabStays",
       text2:
         "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
     },
     {
       src: "/img1.JPG",
       alt: "hero image 1",
-      text: "Explore the ",
-      text1: "Magic Of Delhi",
+      text: "Enjoy the comfort",
+      text3: "of",
+      text1: " FabStays",
 
       text2:
         "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
@@ -26,8 +28,9 @@ const Hero = () => {
     {
       src: "/img2.JPG",
       alt: "hero image 2",
-      text: "Explore the ",
-      text1: "Magic Of Goa",
+      text: "Enjoy the comfort",
+      text3: "of",
+      text1: " FabStays",
 
       text2:
         "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
@@ -35,8 +38,9 @@ const Hero = () => {
     {
       src: "/img3.JPG",
       alt: "hero image 2",
-      text: "Explore the ",
-      text1: "Magic Of Goa",
+      text: "Enjoy the comfort",
+      text3: "of",
+      text1: " FabStays",
 
       text2:
         "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
@@ -44,8 +48,9 @@ const Hero = () => {
     {
       src: "/img4.JPG",
       alt: "hero image 2",
-      text: "Explore the ",
-      text1: "Magic Of Goa",
+      text: "Enjoy the comfort",
+      text3: "of",
+      text1: " FabStays",
 
       text2:
         "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
@@ -53,8 +58,9 @@ const Hero = () => {
     {
       src: "/img5.JPG",
       alt: "hero image 2",
-      text: "Explore the ",
-      text1: "Magic Of Pune",
+      text: "Enjoy the comfort",
+      text3: "of",
+      text1: " FabStays",
 
       text2:
         "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
@@ -62,8 +68,9 @@ const Hero = () => {
     {
       src: "/img6.JPG",
       alt: "hero image 2",
-      text: "Explore the ",
-      text1: "Magic Of Pune",
+      text: "Enjoy the comfort",
+      text3: "of",
+      text1: " FabStays",
 
       text2:
         "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
@@ -71,13 +78,13 @@ const Hero = () => {
     {
       src: "/img7.JPG",
       alt: "hero image 2",
-      text: "Explore the ",
-      text1: "Magic Of Pune",
+      text: "Enjoy the comfort",
+      text3: "of",
+      text1: " FabStays",
 
       text2:
         "Mediteraneum Magic Awaits : Magic Awaits Your Oasis of sun, sea and Serenity",
     },
-    // Add more slides as needed
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -111,12 +118,17 @@ const Hero = () => {
           {/* Text overlay */}
           <div className="absolute p-5 flex gap-10 flex-col h-full items-start w-2/3 justify-start ">
             <div className="">
-              <h1 className="text-9xl font-extralight  text-white">
+              <h1 className="text-9xl whitespace-nowrap font-light  text-white">
                 {slide.text}
               </h1>
-              <h1 className="text-9xl font-indie-flower relative font-extrabold text-[#cdb16c]">
-                {slide.text1}
-              </h1>
+              <div className="flex items-center justify-start gap-16">
+                <h1 className="text-9xl font-extralight  text-white">
+                  {slide.text3}
+                </h1>
+                <h1 className="text-9xl font-indie-flower relative font-extrabold text-[#cdb15c] pt-5">
+                  {slide.text1}
+                </h1>
+              </div>
             </div>
             <h1 className="text-4xl font-extralight text-white">
               {slide.text2}

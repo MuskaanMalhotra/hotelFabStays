@@ -8,17 +8,17 @@ const Facilities = () => {
         <hr className="w-1/4 mx-auto my-5" />
         <div className=' grid grid-cols-2 mx-20 my-10 gap-20'>
             <div className='flex gap-5'>
-                <Image className='h-16 w-16 ' src={"/scope.png"} alt='great view' height={1000} width={1000}/>
+                <Image className='h-16 w-16 ' src={"/comfort.png"} alt='great view' height={1000} width={1000}/>
                 <div className='flex flex-col gap-2'>
-                    <h2 className='text-2xl'>Great View</h2>
-                    <p className='text-lg font-light'>The Orion Group of Hotels stands out for its impeccable hospitality and stunning locations that offer guests unparalleled views.</p>
+                    <h2 className='text-2xl'>Great Comfort</h2>
+                    <p className='text-lg font-light'>Experience unparalleled comfort with our elegantly designed rooms, featuring plush bedding, modern amenities, and a serene ambiance. Whether for business or leisure, our hotel ensures a relaxing and rejuvenating stay with personalized services and a warm, welcoming atmosphere.</p>
                 </div>
             </div>
             <div className=' flex gap-5'>
-                <Image className='h-16 w-16 ' src={"/pool.png"} alt='great view' height={1000} width={1000}/>
+                <Image className='h-16 w-16 ' src={"/meals.png"} alt='great view' height={1000} width={1000}/>
                 <div className='flex flex-col gap-2'>
-                    <h2 className='text-2xl'>Swimming Pool</h2>
-                    <p className='text-lg font-light'>The Orion Group of Hotels stands out for its impeccable hospitality and stunning locations that offer guests unparalleled views.</p>
+                    <h2 className='text-2xl'>Appetizing Meals</h2>
+                    <p className='text-lg font-light'>Indulge in a delightful culinary journey with our expertly crafted meals, prepared using fresh, high-quality ingredients. From local delicacies to international cuisines, our diverse menu caters to all tastes, offering a memorable dining experience in a cozy and inviting setting.</p>
                 </div>
             </div>
             <div className='flex gap-5'>

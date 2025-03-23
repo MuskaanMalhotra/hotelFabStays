@@ -23,7 +23,8 @@ const Footer = () => {
             marginHeight="0"
             marginWidth="0"
             className="border-none mt-[-158px]"
-            src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=39,%20Paddana%20Reddy%20Layout%20Rd,%20Nanjappa%20Garden,%20Horamavu,%20Bengaluru,%20Karnataka%20560043+(Marketecture)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=B/14,%20East%20of%20Greater%20Kailash,%20New%C2%A0Delhi+(HotelFabStays)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            
           >
             <a href="https://www.gps.ie/">gps vehicle tracker</a>
           </iframe>
@@ -38,14 +39,14 @@ const Footer = () => {
           </div>
           <div className=" flex flex-col">
             <label className="text-lg font-medium">Reservation:</label>
-            <a href="tel:+919999999999" className="text-lg">
-              +91 9999999999
+            <a href="tel:+919289633432" className="text-lg">
+              +91 9289633432
             </a>
           </div>
           <div className=" flex flex-col">
             <label className="text-lg font-medium">Booking:</label>
-            <a href="tel:+919999999999" className="text-lg">
-              +91 9999999999
+            <a href="tel:+919289633432" className="text-lg">
+              +91 9289633432
             </a>
           </div>
         </div>
@@ -59,11 +60,11 @@ const Footer = () => {
           </div>
           <div className=" flex flex-col">
             <label className="text-lg font-medium">Information:</label>
-            <Link href={""}>info@hotel.com</Link>
+            <Link href={"https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sales@hotelfabstays.in"}>sales@hotelfabstays.in</Link>
           </div>
           <div className=" flex flex-col">
             <label className="text-lg font-medium">Reception:</label>
-            <Link href={""}>info@hotel.com</Link>
+            <Link href={"https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sales@hotelfabstays.in"}>sales@hotelfabstays.in</Link>
           </div>
         </div>
       </div>
@@ -71,7 +72,7 @@ const Footer = () => {
     <div className="p-10 flex justify-between items-start bg-[#cdb97c]">
         <div className="w-1/3">
             <h1 className="text-xl font-bold">Hotel Fab Stays</h1>
-            <p className="text-lg">The Orion Group of Hotels offered with a great comfort and services at your price in Delhi, Mumbai, Goa, Udaipur, Thailand…</p>
+            <p className="text-lg">Hotel Fab Stays offers great comfort and exceptional services at your price in Delhi, ensuring a luxurious and memorable stay for all our guests.</p>
         </div>
         <div className="">
             <h1 className="text-xl font-bold leading-5">Socials</h1>
@@ -84,11 +85,8 @@ const Footer = () => {
             </div>
         </div>
         <div className="">
-            <h1 className="text-xl font-bold leading-5">Phone Support</h1>
-            <p className="text-lg">24 hours a day</p>
-            <a href="tel:+919999999999" className="text-lg mt-2">
-              +91 9999999999
-            </a>
+            <h1 className="text-xl font-bold leading-5">Address</h1>
+            <p className="text-lg leading-7">Address- B/14<br/>East of Greater Kailash<br/> New Delhi</p>
         </div>
         <div className="">
             <h1 className="text-xl font-bold mb-5">Book now</h1>

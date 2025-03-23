@@ -9,19 +9,19 @@ const OurHotel = () => {
       <div className="flex gap-10 mx-20 my-10">
         <div className="w-1/2">
           <p className="text-lg text-gray-600">
-            Orion Group of Hotels is a distinguished premium hotel chain
-            renowned for its exceptional hospitality services both in India and
-            abroad. Boasting a portfolio of 19 exquisite properties, we are
-            dedicated to delivering unparalleled amenities and unforgettable
-            experiences to our esteemed guests. Strategically situated in prime
-            locations, our hotels offer convenient access to public
-            transportation networks and key attractions, ensuring a seamless and
-            enriching stay for every visitor. At Orion Hotels, we take pride in
-            setting the standard for luxury accommodation and personalized
-            service, ensuring that each guest’s journey is marked by comfort,
-            convenience, and unparalleled satisfaction.<br></br>
+            Hotel Fab Stays is a distinguished premium hotel renowned for its
+            exceptional hospitality services in India. Dedicated to delivering
+            unparalleled amenities and unforgettable experiences, we ensure a
+            luxurious and comfortable stay for our esteemed guests.
+            Strategically situated in a prime location, our hotel offers
+            convenient access to public transportation and key attractions,
+            ensuring a seamless and enriching stay for every visitor. At Hotel
+            Fab Stays, we take pride in setting the standard for luxury
+            accommodation and personalized service, ensuring that each guest’s
+            journey is marked by comfort, convenience, and unparalleled
+            satisfaction.<br></br>
             <br></br>
-            Our hotels are equipped with state-of-the-art facilities, including
+            Our hotel is equipped with state-of-the-art facilities, including
             high-speed Wi-Fi, comfortable beds, clean linen, and round-the-clock
             room service. We are committed to providing our guests with a
             memorable stay and aim to exceed their expectations at every turn.
@@ -50,22 +50,19 @@ const OurHotel = () => {
         </div>
         <div className="w-1/2">
           <p className="text-lg text-gray-600">
-            Orion Group of Hotels is a distinguished premium hotel chain
-            renowned for its exceptional hospitality services both in India and
-            abroad. Boasting a portfolio of 19 exquisite properties, we are
-            dedicated to delivering unparalleled amenities and unforgettable
-            experiences to our esteemed guests. Strategically situated in prime
-            locations, our hotels offer convenient access to public
-            transportation networks and key attractions, ensuring a seamless and
-            enriching stay for every visitor. At Orion Hotels, we take pride in
-            setting the standard for luxury accommodation and personalized
-            service, ensuring that each guest’s journey is marked by comfort,
-            convenience, and unparalleled satisfaction.<br></br>
+            Hotel Fab Stays boasts excellent meeting spaces and conference halls
+            equipped with the latest technology, making them ideal for business
+            meetings, conferences, and events. We also provide venues for small
+            parties and weddings, making us a one-stop solution for all your
+            event needs.<br></br>
             <br></br>
-            Our hotels are equipped with state-of-the-art facilities, including
-            high-speed Wi-Fi, comfortable beds, clean linen, and round-the-clock
-            room service. We are committed to providing our guests with a
-            memorable stay and aim to exceed their expectations at every turn.
+            Located in the heart of Delhi, Hotel Fab Stays offers a perfect
+            blend of luxury, comfort, and convenience. Our commitment to
+            exceptional service ensures a memorable experience for every guest.
+            <br></br>
+            <br></br>
+            At Hotel Fab Stays, we strive to create an unforgettable experience
+            for our guests and deliver exceptional value to our stakeholders.
           </p>
         </div>
       </div>
