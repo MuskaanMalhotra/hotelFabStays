@@ -12,7 +12,7 @@ const Welcome = () => {
       <div className="px-20 py-5 flex items-start bg-gray-100 justify-start gap-20">
         <div className="w-2/5">
           <Image
-            className="h-[70vh] w-full object-cover"
+            className="h-[50vh] w-full object-cover"
             src="/img.JPG"
             alt="welcome"
             width={1000}
